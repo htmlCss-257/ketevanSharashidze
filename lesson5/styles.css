@@ -1,0 +1,48 @@
+h1 {border: 3px; border-radius: 15%; border-color: bisque; text-align: center; background-color: rgb(217, 186, 109);
+}
+.flex-container { 
+    justify-content: center;
+    display:flex;
+   flex-wrap: row;}
+
+.flex-container img {
+align-items: center;
+padding: 25px;
+  width: 300px;        
+  height: 200px;
+border-style: solid; 
+border-radius: 15px;
+background-color: rgb(134, 103, 69);}
+p {
+    font-size: larger;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 30px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-style: dashed;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  height: 50px;
+  background-color: rgb(79, 171, 94); }
+input {
+    text-align: left;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.input-group {display: flex;
+    gap: 10px;
+    
+
+}
